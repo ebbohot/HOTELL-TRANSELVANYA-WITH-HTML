@@ -1,0 +1,161 @@
+@font-face{
+    src:url(fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+    font-family:Dancing script;
+}
+@font-face{
+    src:url(fonts/Pacifico/Pacifico-Regular.ttf);
+    font-family:Pacifico;
+}
+
+/*===START NOLLSTÄLLA CSS===*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: #d9d3cc;
+}
+/*===END NOLLSTÄLLA CSS===*/
+
+/*===START NAV  style===*/
+#nav a{
+    float: right;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: gray;
+    color: #0000ff;
+}
+header h1{
+    margin: 20px;
+}
+header h2{
+    margin: 20px;
+
+}
+.headerimg{
+    width: 100%;
+    height: 250px;
+}
+#nav a:hover{
+    background: #add8e6;;
+}
+/*===END NAV  style===*/
+
+/*===START ARTICALS  style===*/
+main section{
+    width: 500px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color:#fffffffd;
+    padding: 5px;
+    border:1px solid #778899;
+}
+
+main .sectionitle{
+    color: #000000 ;
+    margin: 20px; 
+}
+
+main article img{
+    margin-left: 40px;
+    border-radius: 20px;
+}
+main article p{
+    color: #ffffff; 
+    padding: 10px;
+    color: #000000 ;
+}
+/*===END ARTICALS  style===*/
+
+
+/*===START ASIDE  style===*/
+.aside{
+    float: right;
+    height: 700px;
+    border:1px solid #778899;
+}
+.aside a{
+    color: #0000ff;
+    text-decoration: none;
+}
+.aside img{
+    width:80%;
+    margin: 5px;
+}
+.light{
+    background-color:#add8e6;
+    color: #000000;
+    padding: 15PX;
+}
+.dark{
+    background-color: #778899;
+    color: #ffffff;
+    padding: 15PX;
+}
+.aside ul {
+list-style: none;    
+
+}
+/*=== START PSUEDOKLASSER  ===*/
+.aside ul li:link{
+    color: #0000ff;
+    text-decoration: none;  
+}
+.aside ul li a:hover{
+    color:  rgba(230, 21, 49, 0.384);
+    text-decoration: underline;
+    font-weight: bolder;  
+}
+.aside ul li a:active{
+    color:#ff0000;
+}
+/*=== END PSUEDOKLASSER MED CHILD -> CHILD -> CHILD ===*/
+
+/*===END ASIDE  style===*/
+
+/*===START FOOTER  style===*/
+footer{
+    width: 100%;
+    height: 150px;
+    background-color:#778899;
+    margin-bottom:0px;
+}
+.footerlinks a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footerlinks img{
+    width:30px;
+    margin: 1px;
+    border-radius: 50%;
+}
+.footerlinks{
+    float: right;
+    margin: 20px;
+}
+/*===END FOOTER  style===*/
+
+/*===START Contact form style inline style och external style===*/
+.contactform ,.aboutusform{
+    background-color: #008080;
+}
+.contactform img ,.aboutusform img{
+    width: 100%;
+    border-radius: 30px;
+}
+.pagetitle{
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+}
+.secondpagetitle{
+    font-family: 'Pacifico', cursive;
+
+}
+/*===END Contact form style inline style och external style===*/
+
